@@ -10801,15 +10801,6 @@
             }
           ]
         ],
-        "packet_spectate_entity": [
-          "container",
-          [
-            {
-              "name": "entityId",
-              "type": "varint"
-            }
-          ]
-        ],
         "packet_punch": "void",
         "packet_query_block_nbt": [
           "container",
@@ -11910,18 +11901,6 @@
             {
               "name": "text4",
               "type": "string"
-            }
-          ]
-        ],
-        "packet_spectator_action": [
-          "container",
-          [
-            {
-              "name": "entityId",
-              "type": [
-                "option",
-                "varint"
-              ]
             }
           ]
         ],
